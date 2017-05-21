@@ -3,16 +3,16 @@
 }
 
 .name-front {
-    text-align: right
+    text-align: right;
 }
 
 .name {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 3em;
 }
 
 .front-end {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .name,
@@ -24,4 +24,13 @@
 .hr-line {
     height: 4px;
     background-color: #7d97ad;
+}
+
+@media screen and (max-width: 767px) {
+    .name-front {
+        text-align: center;
+    }
+    .logo-contain {
+        text-align: center;
+    }
 }
