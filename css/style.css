@@ -5,3 +5,23 @@
 .name-front {
     text-align: right
 }
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+}
+
+.front-end {
+    font-weight: 600;
+}
+
+.name,
+.front-end {
+    text-transform: uppercase;
+    color: #2d3c49
+}
+
+.hr-line {
+    height: 4px;
+    background-color: #7d97ad;
+}
