@@ -50,6 +50,7 @@
     .pict {
         margin-bottom: 10px;
     }
+    /*Adds style for personal site*/
 
     @media screen and (max-width: 769px) {
         .name-front {
