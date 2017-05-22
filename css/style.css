@@ -8,22 +8,22 @@
 
     .name {
         font-family: 'Quicksand', sans-serif;
-        font-size: 5em;
+        font-size: 3.5em;
+        font-weight: 600;
     }
 
     .front-end {
-        font-weight: 500;
+        font-weight: 600;
     }
 
-    .name,
     .front-end {
         text-transform: uppercase;
-        color: #2d3c49
     }
 
     .hr-line {
         height: 6px;
         background-color: black;
+        margin-top: 20px
     }
 
     .image-row {
@@ -51,6 +51,19 @@
         margin-bottom: 10px;
     }
     /*Adds style for personal site*/
+
+    .niko {
+        max-width: 60%;
+    }
+
+    .u-logo {
+        width: 33px;
+        margin-right: 10px;
+    }
+
+    .headr {
+        margin-top: 20px
+    }
 
     @media screen and (max-width: 769px) {
         .name-front {
