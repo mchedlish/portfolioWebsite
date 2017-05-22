@@ -26,11 +26,23 @@
     background-color: #7d97ad;
 }
 
+.image-row {
+    margin-top: 30px;
+}
+
+.work {
+    color: #7d97ad;
+    margin-left: 12px;
+}
+
 @media screen and (max-width: 767px) {
     .name-front {
         text-align: center;
     }
     .logo-contain {
         text-align: center;
+    }
+    .pict {
+        width: 100%;
     }
 }
