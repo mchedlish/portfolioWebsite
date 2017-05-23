@@ -1,105 +1,103 @@
-        .logo {
-        margin-top: 27px
-    }
+                .logo {
+                margin-top: 27px
+            }
 
-    .name-front {
-        text-align: right;
-    }
+            .name-front {
+                text-align: right;
+            }
 
-    .name {
-        font-family: 'Quicksand', sans-serif;
-        font-size: 3.5em;
-        font-weight: 600;
-    }
+            .name {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 3.5em;
+                font-weight: 600;
+            }
 
-    .front-end {
-        font-weight: 600;
-    }
+            .front-end {
+                font-weight: 600;
+            }
 
-    .front-end {
-        text-transform: uppercase;
-    }
+            .front-end {
+                text-transform: uppercase;
+            }
 
-    .hr-line {
-        height: 6px;
-        background-color: darkgoldenrod;
-        margin-top: 20px;
-    }
+            .hr-line {
+                height: 6px;
+                background-color: darkgoldenrod;
+                margin-top: 20px;
+            }
 
-    .image-row {
-        margin-top: 30px;
-    }
+            .image-row {
+                margin-top: 30px;
+            }
 
-    .work {
-        color: #7d97ad;
-        margin-left: 12px;
-    }
+            .work {
+                color: #7d97ad;
+                margin-left: 12px;
+            }
 
-    .apple-name,
-    .sunflower-name,
-    .bokeh-name {
-        text-align: center;
-        text-transform: uppercase
-    }
+            .apple-name,
+            .sunflower-name,
+            .bokeh-name {
+                text-align: center;
+                text-transform: uppercase
+            }
 
-    .git {
-        text-align: center;
-        font-size: 16px;
-    }
+            .git {
+                text-align: center;
+                font-size: 16px;
+            }
 
-    .pict {
-        margin-bottom: 10px;
-    }
-    /*Adds style for personal site*/
+            .pict {
+                margin-bottom: 10px;
+            }
+            /*Adds style for personal site*/
 
-    .niko {
-        max-width: 60%;
-    }
+            .niko {
+                max-width: 60%;
+            }
 
-    .u-logo {
-        width: 33px;
-        margin-right: 10px;
-    }
+            .headr {
+                margin-top: 20px
+            }
 
-    .headr {
-        margin-top: 20px
-    }
+            .edu {
+                margin-right: 10px
+            }
 
-    .edu {
-        margin-right: 10px
-    }
+            .center {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
 
-    .center {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+            .btn {
+                margin: 5px
+            }
 
-    .btn {
-        margin: 5px
-    }
+            .list {
+                font-size: 24px;
+            }
 
-    .list {
-        font-size: 24px;
-    }
+            .image {
+                max-width: 100%;
+            }
 
-    .image {
-        max-width: 100%;
-    }
-
-    @media screen and (max-width: 769px) {
-        .name-front {
-            text-align: center;
-        }
-        .logo-contain {
-            text-align: center;
-        }
-        .work {
-            text-align: center;
-        }
-        .pict {
-            width: 100%
-        }
-        .niko {
-            max-width: 50%;
-        }
+            @media screen and (max-width: 769px) {
+                .name-front {
+                    text-align: center;
+                }
+                .logo-contain {
+                    text-align: center;
+                }
+                .work {
+                    text-align: center;
+                }
+                .pict {
+                    width: 100%
+                }
+                .niko {
+                    max-width: 50%;
+                }
+                .image-big {
+                    text-align: center
+                }
