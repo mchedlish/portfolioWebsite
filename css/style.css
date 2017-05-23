@@ -1,103 +1,107 @@
-                .logo {
-                margin-top: 27px
-            }
+            .logo {
+            margin-top: 27px
+        }
 
+        .name-front {
+            text-align: right;
+        }
+
+        .name {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 3.5em;
+            font-weight: 600;
+        }
+
+        .front-end {
+            font-weight: 600;
+        }
+
+        .front-end {
+            text-transform: uppercase;
+        }
+
+        .hr-line {
+            height: 6px;
+            background-color: darkgoldenrod;
+            margin-top: 20px;
+        }
+
+        .image-row {
+            margin-top: 30px;
+        }
+
+        .work {
+            color: #7d97ad;
+            margin-left: 12px;
+        }
+
+        .apple-name,
+        .sunflower-name,
+        .bokeh-name {
+            text-align: center;
+            text-transform: uppercase
+        }
+
+        .git {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .pict {
+            margin-bottom: 10px;
+            height: 160px;
+        }
+        /*Adds style for personal site*/
+
+        .niko {
+            max-width: 60%;
+        }
+
+        .headr {
+            margin-top: 20px
+        }
+
+        .edu {
+            margin-right: 10px
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin: 5px
+        }
+
+        .list {
+            font-size: 24px;
+        }
+
+        .image {
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 769px) {
             .name-front {
-                text-align: right;
+                text-align: center;
             }
-
-            .name {
-                font-family: 'Quicksand', sans-serif;
-                font-size: 3.5em;
-                font-weight: 600;
+            .logo-contain {
+                text-align: center;
             }
-
-            .front-end {
-                font-weight: 600;
-            }
-
-            .front-end {
-                text-transform: uppercase;
-            }
-
-            .hr-line {
-                height: 6px;
-                background-color: darkgoldenrod;
-                margin-top: 20px;
-            }
-
-            .image-row {
-                margin-top: 30px;
-            }
-
             .work {
-                color: #7d97ad;
-                margin-left: 12px;
-            }
-
-            .apple-name,
-            .sunflower-name,
-            .bokeh-name {
                 text-align: center;
-                text-transform: uppercase
             }
-
-            .git {
-                text-align: center;
-                font-size: 16px;
-            }
-
             .pict {
-                margin-bottom: 10px;
+                width: 100%
             }
-            /*Adds style for personal site*/
-
             .niko {
-                max-width: 60%;
+                max-width: 50%;
             }
-
-            .headr {
-                margin-top: 20px
+            .image-big {
+                text-align: center
             }
-
-            .edu {
-                margin-right: 10px
+            .pict {
+                height: auto;
             }
-
-            .center {
-                text-align: center;
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
-
-            .btn {
-                margin: 5px
-            }
-
-            .list {
-                font-size: 24px;
-            }
-
-            .image {
-                max-width: 100%;
-            }
-
-            @media screen and (max-width: 769px) {
-                .name-front {
-                    text-align: center;
-                }
-                .logo-contain {
-                    text-align: center;
-                }
-                .work {
-                    text-align: center;
-                }
-                .pict {
-                    width: 100%
-                }
-                .niko {
-                    max-width: 50%;
-                }
-                .image-big {
-                    text-align: center
-                }
